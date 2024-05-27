@@ -5,6 +5,12 @@ VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FestivalApi", "FestivalApi.csproj", "{FF608AD0-5CCC-4770-BF91-CEEF389C2EF6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{1C92AB74-E62D-4A2B-82A7-42D9DF348550}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{B3BCA7CD-B156-419D-B1F6-AD7C4ACDD999}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FestivalApi.Tests.ContractTest", "FestivalApi.Tests.ContractTest\FestivalApi.Tests.ContractTest.csproj", "{5722CD2B-8724-4C36-AE4F-88D4D3FA3204}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +21,17 @@ Global
 		{FF608AD0-5CCC-4770-BF91-CEEF389C2EF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF608AD0-5CCC-4770-BF91-CEEF389C2EF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF608AD0-5CCC-4770-BF91-CEEF389C2EF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5722CD2B-8724-4C36-AE4F-88D4D3FA3204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5722CD2B-8724-4C36-AE4F-88D4D3FA3204}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5722CD2B-8724-4C36-AE4F-88D4D3FA3204}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5722CD2B-8724-4C36-AE4F-88D4D3FA3204}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FF608AD0-5CCC-4770-BF91-CEEF389C2EF6} = {B3BCA7CD-B156-419D-B1F6-AD7C4ACDD999}
+		{5722CD2B-8724-4C36-AE4F-88D4D3FA3204} = {1C92AB74-E62D-4A2B-82A7-42D9DF348550}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C8C43844-36FE-4FAE-A98C-C10787C46E46}
